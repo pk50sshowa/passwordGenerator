@@ -94,6 +94,8 @@ function generatePassword() {
   console.log(result.join(''));
 
   password = result;
+
+  window.alert('Your password is ' + password.join(''));
 }
 
 // Write password to the #password input
@@ -108,5 +110,3 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
-
