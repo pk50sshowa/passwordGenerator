@@ -42,17 +42,20 @@ var result = [];
 var allChars = [];
 var v = 0;
 
+// Function to generate the password
 function generatePassword() {
   var lengthOfPassword = parseInt(window.prompt('Password Length:'));
 
   console.log(lengthOfPassword);
   console.log(typeof lengthOfPassword);
   
+// Designates the password length
   while (lengthOfPassword < 8 || lengthOfPassword > 128) {
     window.alert('Please enter a valid password length between 8 to 128 characters.')
     var lengthOfPassword = parseInt(window.prompt('Password Length:'));
   }
   
+// Designates which character sets will be used in password generation
   do {
   var includeUpperCasedChars = confirm('Include uppercase characters?');
   console.log(includeUpperCasedChars);
@@ -95,10 +98,11 @@ function generatePassword() {
 
   password = result;
 
+// Window alert which shows the gneerated password
   window.alert('Your password is ' + password.join(''));
 }
 
-// Write password to the #password input
+// Write password to the #password input (not implemented yet)
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
