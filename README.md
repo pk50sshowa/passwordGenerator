@@ -7,7 +7,7 @@ A password generator designed to generate passwords from 8 to 128 characters usi
 ## Location
 
 The site is live at the following URL:
-[https://pk50sshowa.github.io/passwordGenerator/](https://pk50sshowa.github.io/passwordGenerator/)
+[https://pk50sshowa.github.io/passwordGenerator/index.html](https://pk50sshowa.github.io/passwordGenerator/index.html)
 
 ## Screenshots
 
@@ -21,7 +21,7 @@ The generated password itself is also shown through a window alert is written to
 ## Contributing
 
 Please take a look at the code history at this project's repo page:
-[https://github.com/pk50sshowa/passwordGenerator](https://github.com/pk50sshowa/passwordGenerator)
+[https://github.com/pk50sshowa/passwordGenerator/](https://github.com/pk50sshowa/passwordGenerator/)
 
 ## Support
 
