@@ -98,11 +98,10 @@ function generatePassword() {
 
   password = result;
 
-// Window alert which shows the gneerated password
-  window.alert('Your password is ' + password.join(''));
+  return password.join('');
 }
 
-// Write password to the #password input (not implemented yet)
+// Write password to the #password input
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");

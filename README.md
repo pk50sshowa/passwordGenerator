@@ -11,13 +11,12 @@ The site is live at the following URL:
 
 ## Screenshots
 
-![Screenshot 1]()
-![Screenshot 2]()
+![Screenshot 1](screenshot1.jpg)
 
 ## Developer Comments
 
 Prompts for the password length and desired character sets are given through window alerts.
-The generated passowrd itself is also shown through a window alert.
+The generated password itself is also shown through a window alert is written to the main window.
 
 ## Contributing
 
@@ -30,7 +29,7 @@ Any questions can be directed to the developer at paul.koehler@gmail.com
 
 ## Credits
 
-I'm glad that we were able to solve a lot of the problems through multiple Slack discussions! Many thanks to all of you who I spoke with. Special thanks to separate consultations with Diarmiud Murphy, Susann Orosco, and Mauricio Ortiz.
+Special thanks to separate consultations with Diarmiud Murphy, Susann Orosco, Mauricio Ortiz, and Meg Meyers.
 
 ## License
 
